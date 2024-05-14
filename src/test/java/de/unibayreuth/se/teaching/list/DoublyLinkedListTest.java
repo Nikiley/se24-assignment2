@@ -122,7 +122,7 @@ class DoublyLinkedListTest {
 
     /**
      * Helper method to test begin and end pointers of a doubly linked list
-     * @param list List to test
+     * @param list List to test hAH
      */
     private static void testBeginEndPointers(DoublyLinkedList list) {
         assertSame(list.getBegin().getNext().getPrev(), list.getBegin());
